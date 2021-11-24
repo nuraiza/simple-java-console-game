@@ -6,6 +6,8 @@ This project is about simple java console game, which consists of a player, map 
 ## Technologies :hammer_and_pick:
 
 Java version 8 or higher
+
+
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
 
 ## Launch :electric_plug:
@@ -33,6 +35,8 @@ This project can be easily extended. Many new ideas, functionalities are only we
 
 ## License :balance_scale:
 Distributed under the MIT License. See LICENSE.txt for more information.
+
+
 [![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.txt)
 
 ## Contact :email:
