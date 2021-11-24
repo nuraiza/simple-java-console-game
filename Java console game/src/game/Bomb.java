@@ -1,18 +1,13 @@
+package game;
+
 import java.util.List;
 
-public class Money extends Element{
-    private int amount;
-    private String money = "$";
+public class Bomb extends Element{
+    private String bomb = "*";
 
-
-
-    public Money( List<WhiteSpace> l, int a){
+    public Bomb(List<WhiteSpace> l){
         super(l);
-        amount= a;
-
     }
-
-
 
     @Override
     public void setCoordinates(List<WhiteSpace> l) {
@@ -39,21 +34,14 @@ public class Money extends Element{
         super.setY(y);
     }
 
-    public int getAmount() {
-        return amount;
-    }
+    public String getBomb(){
+        return bomb;
 
-    public void setAmount(int amount) {
-        this.amount = amount;
     }
+    public void setBomb(String sign){
+        bomb = sign;
 
-    public String getMoney() {
-        return money;
     }
-
-    public void setMoney(String money) {
-        this.money = money;
-    }
-
 
 }
+

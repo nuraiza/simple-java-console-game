@@ -1,11 +1,20 @@
+package game;
+
 import java.util.List;
 
-public class Weapon extends Element{
-    private String weapon = "@";
+public class Money extends Element{
+    private int amount;
+    private String money = "$";
 
-    public Weapon(List<WhiteSpace> l){
+
+
+    public Money( List<WhiteSpace> l, int a){
         super(l);
+        amount= a;
+
     }
+
+
 
     @Override
     public void setCoordinates(List<WhiteSpace> l) {
@@ -32,12 +41,21 @@ public class Weapon extends Element{
         super.setY(y);
     }
 
-    public String getWeapon() {
-        return weapon;
+    public int getAmount() {
+        return amount;
     }
 
-    public void setWeapon(String weapon) {
-        this.weapon = weapon;
+    public void setAmount(int amount) {
+        this.amount = amount;
     }
+
+    public String getMoney() {
+        return money;
+    }
+
+    public void setMoney(String money) {
+        this.money = money;
+    }
+
+
 }
-

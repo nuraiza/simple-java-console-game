@@ -1,10 +1,14 @@
+package game;
+
 import java.util.List;
 
-public class Bomb extends Element{
-    private String bomb = "*";
+public class Health extends Element{
+    private final int amount =1;
+    private String health = "#";
 
-    public Bomb(List<WhiteSpace> l){
-        super(l);
+
+    public Health(List<WhiteSpace> l){
+     super(l);
     }
 
     @Override
@@ -32,14 +36,17 @@ public class Bomb extends Element{
         super.setY(y);
     }
 
-    public String getBomb(){
-        return bomb;
-
-    }
-    public void setBomb(String sign){
-        bomb = sign;
-
+    public int getAmount() {
+        return amount;
     }
 
+
+
+    public String getHealth() {
+        return health;
+    }
+
+    public void setHealth(String health) {
+        this.health = health;
+    }
 }
-

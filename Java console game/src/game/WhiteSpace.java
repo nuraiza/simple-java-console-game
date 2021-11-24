@@ -1,3 +1,5 @@
+package game;
+
 public class WhiteSpace {
     private int x;
     private int y;

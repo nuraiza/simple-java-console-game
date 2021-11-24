@@ -1,12 +1,12 @@
+package game;
+
 import java.util.List;
 
-public class Health extends Element{
-    private final int amount =1;
-    private String health = "#";
+public class Weapon extends Element{
+    private String weapon = "@";
 
-
-    public Health(List<WhiteSpace> l){
-     super(l);
+    public Weapon(List<WhiteSpace> l){
+        super(l);
     }
 
     @Override
@@ -34,17 +34,12 @@ public class Health extends Element{
         super.setY(y);
     }
 
-    public int getAmount() {
-        return amount;
+    public String getWeapon() {
+        return weapon;
     }
 
-
-
-    public String getHealth() {
-        return health;
-    }
-
-    public void setHealth(String health) {
-        this.health = health;
+    public void setWeapon(String weapon) {
+        this.weapon = weapon;
     }
 }
+
