@@ -28,14 +28,14 @@ Java version 8 or higher
  - Player can get additional health by collecting #.
  - Enemy is patrolling his area, he is represented as Y and is constantly moving up and down. However, it is dangerous to approach to him without any weapon, he can take your health.
  - Time to collect all money - $, and win the game!
-## Have fun :D
+## Have fun :smile:
 This project can be easily extended. Many new ideas, functionalities are only welcome! If you want to contribute to this project I am waiting for your pull request :)
 
-## License
+## License :balance_scale:
 Distributed under the MIT License. See LICENSE.txt for more information.
 [![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.txt)
 
-## Contact
+## Contact :email:
 <a href="mailto:nuraiza.juraeva@gmail.com">![nuraiza.juraeva@gmail.com](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)</a> <a href="<https://www.linkedin.com/in/nuraiza/>">![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)</a>
 
 
